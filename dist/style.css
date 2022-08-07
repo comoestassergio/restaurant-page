@@ -100,6 +100,8 @@ html, body {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+
+    animation: fade-in-anim 350ms ease-out forwards;
 }
 
 .home__slogan {
@@ -151,6 +153,8 @@ html, body {
     height: 400px;
 
     position: relative;
+
+    animation: fade-in-anim 350ms ease-out forwards;
 }
 
 .item__title {
@@ -174,11 +178,11 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-
-    margin-top: 2rem;
+    justify-content: center;
 
     gap: 2.5rem;
+
+    animation: fade-in-anim 350ms ease-out forwards;
 }
 
 .contact__number {
@@ -204,6 +208,16 @@ html, body {
 .contact__street {
     font-size: 1.5rem;
     color: gray;
+}
+
+@keyframes fade-in-anim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 
