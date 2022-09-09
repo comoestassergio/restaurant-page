@@ -1,6 +1,6 @@
 # Rice&Fish
 
-It's a restaurant from my hometown. Their business is quite **small** and **lacking a website**.
+It's a restaurant in my hometown. Their business is quite **small** and **lacking a website**.
 
 So I figured **I could make one** as one of my projects. 
 
